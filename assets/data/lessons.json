@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "category": "Vocabulaire",
+    "title": "Bonjour",
+    "content": "Bonjou",
+    "audioPath": "assets/audios/vocabulaire/bonjou.mp3",
+    "order": 1
+  },
+  {
+    "id": 2,
+    "category": "Vocabulaire",
+    "title": "Merci",
+    "content": "Mèsi",
+    "audioPath": "assets/audios/vocabulaire/Mèsi.mp3",
+    "order": 2
+  },
+  {
+    "id": 3,
+    "category": "Vocabulaire",
+    "title": "S'il vous plaît",
+    "content": "Souple",
+    "audioPath": "assets/audios/vocabulaire/souple.mp3",
+    "order": 3
+  },
+  {
+    "id": 4,
+    "category": "Vocabulaire",
+    "title": "Oui",
+    "content": "Wi",
+    "audioPath": "assets/audios/vocabulaire/wi.mp3",
+    "order": 4
+  },
+  {
+    "id": 5,
+    "category": "Vocabulaire",
+    "title": "Non",
+    "content": "Non",
+    "audioPath": "assets/audios/vocabulaire/non.mp3",
+    "order": 5
+  },
+  {
+    "id": 6,
+    "category": "Vocabulaire",
+    "title": "Eau",
+    "content": "Dlo",
+    "audioPath": "assets/audios/vocabulaire/dlo.mp3",
+    "order": 6
+  },
+  {
+    "id": 7,
+    "category": "Vocabulaire",
+    "title": "Maison",
+    "content": "Kay",
+    "audioPath": "assets/audios/vocabulaire/kay.mp3",
+    "order": 7
+  },
+  {
+    "id": 8,
+    "category": "Vocabulaire",
+    "title": "Manger",
+    "content": "Manje",
+    "audioPath": "assets/audios/vocabulaire/manje.mp3",
+    "order": 8
+  },
+  {
+    "id": 9,
+    "category": "Vocabulaire",
+    "title": "Ami",
+    "content": "Zanmi",
+    "audioPath": "assets/audios/vocabulaire/zanmi.mp3",
+    "order": 9
+  },
+  {
+    "id": 10,
+    "category": "Vocabulaire",
+    "title": "Enfant",
+    "content": "Timoun",
+    "audioPath": "assets/audios/vocabulaire/timoun.mp3",
+    "order": 10
+  },
+  {
+    "id": 11,
+    "category": "Expression",
+    "title": "Lave men siye atè",
+    "content": "C'est un effort inutile, du travail perdu.",
+    "audioPath": "assets/audios/expression/lave_men_siye_ate.mp3",
+    "order": 1
+  },
+  {
+    "id": 12,
+    "category": "Expression",
+    "title": "Bay kou bliye, pote mak sonje",
+    "content": "Celui qui donne le coup oublie, celui qui en porte la marque s'en souvient.",
+    "audioPath": "assets/audios/expression/bay_kou_bliye.mp3",
+    "order": 2
+  },
+  {
+    "id": 13,
+    "category": "Expression",
+    "title": "Pitit tig se tig",
+    "content": "Tel père, tel fils.",
+    "audioPath": "assets/audios/expression/pitit_tig_se_tig.mp3",
+    "order": 3
+  },
+  {
+    "id": 14,
+    "category": "Expression",
+    "title": "Men anpil, chay pa lou",
+    "content": "L'union fait la force.",
+    "audioPath": "assets/audios/expression/men_anpil_chay_pa_lou.mp3",
+    "order": 4
+  },
+  {
+    "id": 15,
+    "category": "Expression",
+    "title": "Sak vid pa kanpe",
+    "content": "Un sac vide ne tient pas debout : on ne peut rien faire le ventre vide.",
+    "audioPath": "assets/audios/expression/sak_vid_pa_kanpe.mp3",
+    "order": 5
+  },
+  {
+    "id": 16,
+    "category": "Expression",
+    "title": "Dèyè mòn gen mòn",
+    "content": "Après une difficulté, il y en a toujours une autre.",
+    "audioPath": "assets/audios/expression/deye_mon_gen_mon.mp3",
+    "order": 6
+  },
+  {
+    "id": 17,
+    "category": "Expression",
+    "title": "Wòch nan dlo pa konn doulè wòch nan solèy",
+    "content": "Celui qui n'a pas souffert ne comprend pas la souffrance des autres.",
+    "audioPath": "assets/audios/expression/woch_nan_dlo.mp3",
+    "order": 7
+  },
+  {
+    "id": 18,
+    "category": "Expression",
+    "title": "Pale anpil pa vle di lespri",
+    "content": "Parler beaucoup ne signifie pas être intelligent.",
+    "audioPath": "assets/audios/expression/pale_anpil.mp3",
+    "order": 8
+  },
+  {
+    "id": 19,
+    "category": "Expression",
+    "title": "Bouch granmoun santi, pawòl li pa santi",
+    "content": "Les paroles des aînés restent sages, même si leur manière de parler semble rude.",
+    "audioPath": "assets/audios/expression/bouch_granmoun.mp3",
+    "order": 9
+  },
+  {
+    "id": 20,
+    "category": "Expression",
+    "title": "Ti pa, ti pa",
+    "content": "Petit à petit, doucement mais sûrement.",
+    "audioPath": "assets/audios/expression/ti_pa_ti_pa.mp3",
+    "order": 10
+  },
+  {
+    "id": 21,
+    "category": "Phrase courante",
+    "title": "Comment allez-vous ?",
+    "content": "Koman ou ye ?",
+    "audioPath": "assets/audios/phrase_courante/koman_ou_ye.mp3",
+    "order": 1
+  },
+  {
+    "id": 22,
+    "category": "Phrase courante",
+    "title": "Je m'appelle...",
+    "content": "Mwen rele...",
+    "audioPath": "assets/audios/phrase_courante/mwen_rele.mp3",
+    "order": 2
+  },
+  {
+    "id": 23,
+    "category": "Phrase courante",
+    "title": "Quel est votre nom ?",
+    "content": "Kijan ou rele ?",
+    "audioPath": "assets/audios/phrase_courante/kijan_ou_rele.mp3",
+    "order": 3
+  },
+  {
+    "id": 24,
+    "category": "Phrase courante",
+    "title": "Où sont les toilettes ?",
+    "content": "Kote twalèt la ?",
+    "audioPath": "assets/audios/phrase_courante/kote_twalet_la.mp3",
+    "order": 4
+  },
+  {
+    "id": 25,
+    "category": "Phrase courante",
+    "title": "Combien ça coûte ?",
+    "content": "Konbyen sa koute ?",
+    "audioPath": "assets/audios/phrase_courante/konbyen_sa_koute.mp3",
+    "order": 5
+  },
+  {
+    "id": 26,
+    "category": "Phrase courante",
+    "title": "Je ne comprends pas",
+    "content": "Mwen pa konprann",
+    "audioPath": "assets/audios/phrase_courante/mwen_pa_konprann.mp3",
+    "order": 6
+  },
+  {
+    "id": 27,
+    "category": "Phrase courante",
+    "title": "Pouvez-vous m'aider ?",
+    "content": "Èske ou ka ede m ?",
+    "audioPath": "assets/audios/phrase_courante/eske_ou_ka_ede_m.mp3",
+    "order": 7
+  },
+  {
+    "id": 28,
+    "category": "Phrase courante",
+    "title": "Je suis désolé",
+    "content": "Mwen regrèt",
+    "audioPath": "assets/audios/phrase_courante/mwen_regret.mp3",
+    "order": 8
+  },
+  {
+    "id": 29,
+    "category": "Phrase courante",
+    "title": "À bientôt",
+    "content": "N a wè pita",
+    "audioPath": "assets/audios/phrase_courante/n_a_we_pita.mp3",
+    "order": 9
+  },
+  {
+    "id": 30,
+    "category": "Phrase courante",
+    "title": "Quelle heure est-il ?",
+    "content": "Ki lè li ye ?",
+    "audioPath": "assets/audios/phrase_courante/ki_le_li_ye.mp3",
+    "order": 10
+  },
+  {
+    "id": 31,
+    "category": "Grammaire",
+    "title": "La négation « ne...pas »",
+    "content": "Se forme avec « pa » placé avant le verbe : Mwen pa vle (Je ne veux pas).",
+    "audioPath": "assets/audios/grammaire/negation_pa.mp3",
+    "order": 1
+  },
+  {
+    "id": 32,
+    "category": "Grammaire",
+    "title": "Les pronoms personnels",
+    "content": "Mwen (je), ou (tu), li (il/elle), nou (nous/vous), yo (ils/elles).",
+    "audioPath": "assets/audios/grammaire/pronoms_personnels.mp3",
+    "order": 2
+  },
+  {
+    "id": 33,
+    "category": "Grammaire",
+    "title": "Le futur proche",
+    "content": "Se marque avec « ap » ou « va » : Mwen ap manje (Je vais manger).",
+    "audioPath": "assets/audios/grammaire/futur_proche.mp3",
+    "order": 3
+  },
+  {
+    "id": 34,
+    "category": "Grammaire",
+    "title": "Le passé composé",
+    "content": "Se marque avec « te » : Mwen te manje (J'ai mangé).",
+    "audioPath": "assets/audios/grammaire/passe_te.mp3",
+    "order": 4
+  },
+  {
+    "id": 35,
+    "category": "Grammaire",
+    "title": "Le pluriel",
+    "content": "Se forme en ajoutant « yo » après le nom : Liv yo (Les livres).",
+    "audioPath": "assets/audios/grammaire/pluriel_yo.mp3",
+    "order": 5
+  },
+  {
+    "id": 36,
+    "category": "Grammaire",
+    "title": "Le possessif",
+    "content": "Le possesseur se place après le nom : Kay mwen (Ma maison).",
+    "audioPath": "assets/audios/grammaire/possessif.mp3",
+    "order": 6
+  },
+  {
+    "id": 37,
+    "category": "Grammaire",
+    "title": "La question avec « est-ce que »",
+    "content": "La phrase commence par « Èske » : Èske ou vini ? (Est-ce que tu viens ?).",
+    "audioPath": "assets/audios/grammaire/question_eske.mp3",
+    "order": 7
+  },
+  {
+    "id": 38,
+    "category": "Grammaire",
+    "title": "L'article défini",
+    "content": "Se place après le nom, sous la forme « la » ou « a » : Kay la (La maison).",
+    "audioPath": "assets/audios/grammaire/article_defini.mp3",
+    "order": 8
+  },
+  {
+    "id": 39,
+    "category": "Grammaire",
+    "title": "Le verbe « être » sous-entendu",
+    "content": "N'est pas toujours exprimé : Li kontan (Il est content).",
+    "audioPath": "assets/audios/grammaire/verbe_etre.mp3",
+    "order": 9
+  },
+  {
+    "id": 40,
+    "category": "Grammaire",
+    "title": "Le présent progressif",
+    "content": "Se marque avec « ap » : L ap dòmi (Il est en train de dormir).",
+    "audioPath": "assets/audios/grammaire/present_progressif,mp3.ogg",
+    "order": 10
+  }
+]

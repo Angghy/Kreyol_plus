@@ -1,0 +1,162 @@
+[
+  {
+    "id": 17,
+    "type": "oral",
+    "category": "Vocabulaire",
+    "lessonId": 1,
+    "text": "Écoutez l'audio et choisissez la traduction en français.",
+    "audioPath": "assets/audios/vocabulaire/bonjou.mp3",
+    "options": ["Bonjour", "Merci", "Oui", "Eau"],
+    "correctIndex": 0
+  },
+  {
+    "id": 18,
+    "type": "oral",
+    "category": "Vocabulaire",
+    "lessonId": 7,
+    "text": "Écoutez l'audio et choisissez la traduction en français.",
+    "audioPath": "assets/audios/vocabulaire/kay.mp3",
+    "options": ["Ami", "Maison", "Enfant", "Non"],
+    "correctIndex": 1
+  },
+  {
+    "id": 19,
+    "type": "oral",
+    "category": "Vocabulaire",
+    "lessonId": 4,
+    "text": "Écoutez l'audio et choisissez la traduction en français.",
+    "audioPath": "assets/audios/vocabulaire/wi.mp3",
+    "options": ["Non", "Merci", "Oui", "S'il vous plaît"],
+    "correctIndex": 2
+  },
+  {
+    "id": 20,
+    "type": "oral",
+    "category": "Vocabulaire",
+    "lessonId": 10,
+    "text": "Écoutez l'audio et choisissez la traduction en français.",
+    "audioPath": "assets/audios/vocabulaire/timoun.mp3",
+    "options": ["Ami", "Maison", "Manger", "Enfant"],
+    "correctIndex": 3
+  },
+  {
+    "id": 21,
+    "type": "oral",
+    "category": "Expression",
+    "lessonId": 15,
+    "text": "Écoutez l'expression et choisissez sa signification.",
+    "audioPath": "assets/audios/expression/sak_vid_pa_kanpe.mp3",
+    "options": ["On ne peut rien faire le ventre vide", "L'union fait la force", "Tel père, tel fils", "Petit à petit"],
+    "correctIndex": 0
+  },
+  {
+    "id": 22,
+    "type": "oral",
+    "category": "Expression",
+    "lessonId": 17,
+    "text": "Écoutez l'expression et choisissez sa signification.",
+    "audioPath": "assets/audios/expression/woch_nan_dlo.mp3",
+    "options": ["C'est inutile", "Celui qui n'a pas souffert ne comprend pas la souffrance des autres", "Après une difficulté, il y en a une autre", "Parler beaucoup ne veut pas dire intelligence"],
+    "correctIndex": 1
+  },
+  {
+    "id": 23,
+    "type": "oral",
+    "category": "Expression",
+    "lessonId": 19,
+    "text": "Écoutez l'expression et choisissez sa signification.",
+    "audioPath": "assets/audios/expression/bouch_granmoun.mp3",
+    "options": ["Tel père, tel fils", "L'union fait la force", "Les paroles des aînés restent sages, même si leur discours semble rude", "C'est un effort inutile"],
+    "correctIndex": 2
+  },
+  {
+    "id": 24,
+    "type": "oral",
+    "category": "Expression",
+    "lessonId": 12,
+    "text": "Écoutez l'expression et choisissez sa signification.",
+    "audioPath": "assets/audios/expression/bay_kou_bliye.mp3",
+    "options": ["Petit à petit, doucement mais sûrement", "On ne peut rien faire le ventre vide", "Après une difficulté, il y en a une autre", "Celui qui donne le coup oublie, celui qui le reçoit s'en souvient"],
+    "correctIndex": 3
+  },
+  {
+    "id": 25,
+    "type": "oral",
+    "category": "Phrase courante",
+    "lessonId": 21,
+    "text": "Écoutez la phrase et choisissez sa traduction en français.",
+    "audioPath": "assets/audios/phrase_courante/koman_ou_ye.mp3",
+    "options": ["Comment allez-vous ?", "Quel est votre nom ?", "Où sont les toilettes ?", "Quelle heure est-il ?"],
+    "correctIndex": 0
+  },
+  {
+    "id": 26,
+    "type": "oral",
+    "category": "Phrase courante",
+    "lessonId": 30,
+    "text": "Écoutez la phrase et choisissez sa traduction en français.",
+    "audioPath": "assets/audios/phrase_courante/ki_le_li_ye.mp3",
+    "options": ["Combien ça coûte ?", "Quelle heure est-il ?", "Je suis désolé", "À bientôt"],
+    "correctIndex": 1
+  },
+  {
+    "id": 27,
+    "type": "oral",
+    "category": "Phrase courante",
+    "lessonId": 29,
+    "text": "Écoutez la phrase et choisissez sa traduction en français.",
+    "audioPath": "assets/audios/phrase_courante/n_a_we_pita.mp3",
+    "options": ["Je ne comprends pas", "Pouvez-vous m'aider ?", "À bientôt", "Comment allez-vous ?"],
+    "correctIndex": 2
+  },
+  {
+    "id": 28,
+    "type": "oral",
+    "category": "Phrase courante",
+    "lessonId": 23,
+    "text": "Écoutez la phrase et choisissez sa traduction en français.",
+    "audioPath": "assets/audios/phrase_courante/kijan_ou_rele.mp3",
+    "options": ["Où sont les toilettes ?", "Combien ça coûte ?", "Je m'appelle...", "Quel est votre nom ?"],
+    "correctIndex": 3
+  },
+  {
+    "id": 29,
+    "type": "oral",
+    "category": "Grammaire",
+    "lessonId": 31,
+    "text": "Écoutez la phrase « Mwen pa vle ». Quelle règle grammaticale illustre-t-elle ?",
+    "audioPath": "assets/audios/grammaire/negation_pa.mp3",
+    "options": ["La négation avec « pa »", "Le pluriel avec « yo »", "Le futur avec « ap »", "Le passé avec « te »"],
+    "correctIndex": 0
+  },
+  {
+    "id": 30,
+    "type": "oral",
+    "category": "Grammaire",
+    "lessonId": 33,
+    "text": "Écoutez la phrase « Mwen ap manje ». Quelle règle grammaticale illustre-t-elle ?",
+    "audioPath": "assets/audios/grammaire/futur_proche.mp3",
+    "options": ["Le passé composé", "Le futur proche", "La négation", "L'article défini"],
+    "correctIndex": 1
+  },
+  {
+    "id": 31,
+    "type": "oral",
+    "category": "Grammaire",
+    "lessonId": 34,
+    "text": "Écoutez la phrase « Mwen te manje ». Quelle règle grammaticale illustre-t-elle ?",
+    "audioPath": "assets/audios/grammaire/passe_te.mp3",
+    "options": ["Le futur proche", "Le pluriel", "Le passé composé", "Le possessif"],
+    "correctIndex": 2
+  },
+  {
+    "id": 32,
+    "type": "oral",
+    "category": "Grammaire",
+    "lessonId": 40,
+    "text": "Écoutez la phrase « L ap dòmi ». Quelle règle grammaticale illustre-t-elle ?",
+    "audioPath": "assets/audios/grammaire/present_progressif,mp3.ogg",
+    "options": ["La négation", "Le pluriel", "La question avec « Èske »", "Le présent progressif"],
+    "correctIndex": 3
+  }
+]

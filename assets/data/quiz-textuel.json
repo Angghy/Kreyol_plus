@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "type": "textuel",
+    "category": "Vocabulaire",
+    "lessonId": 2,
+    "text": "Comment dit-on « Merci » en kreyòl ?",
+    "options": ["Mèsi", "Wi", "Dlo", "Kay"],
+    "correctIndex": 0
+  },
+  {
+    "id": 2,
+    "type": "textuel",
+    "category": "Vocabulaire",
+    "lessonId": 6,
+    "text": "Comment dit-on « Eau » en kreyòl ?",
+    "options": ["Kay", "Dlo", "Timoun", "Zanmi"],
+    "correctIndex": 1
+  },
+  {
+    "id": 3,
+    "type": "textuel",
+    "category": "Vocabulaire",
+    "lessonId": 8,
+    "text": "Que signifie « Manje » en français ?",
+    "options": ["Ami", "Non", "Manger", "Enfant"],
+    "correctIndex": 2
+  },
+  {
+    "id": 4,
+    "type": "textuel",
+    "category": "Vocabulaire",
+    "lessonId": 9,
+    "text": "Comment dit-on « Ami » en kreyòl ?",
+    "options": ["Souple", "Wi", "Kay", "Zanmi"],
+    "correctIndex": 3
+  },
+  {
+    "id": 5,
+    "type": "textuel",
+    "category": "Expression",
+    "lessonId": 14,
+    "text": "Que signifie l'expression « Men anpil, chay pa lou » ?",
+    "options": ["L'union fait la force", "Tel père, tel fils", "C'est inutile", "Petit à petit"],
+    "correctIndex": 0
+  },
+  {
+    "id": 6,
+    "type": "textuel",
+    "category": "Expression",
+    "lessonId": 13,
+    "text": "Que signifie « Pitit tig se tig » ?",
+    "options": ["L'union fait la force", "Tel père, tel fils", "Après une difficulté, il y en a une autre", "Parler beaucoup ne veut pas dire intelligence"],
+    "correctIndex": 1
+  },
+  {
+    "id": 7,
+    "type": "textuel",
+    "category": "Expression",
+    "lessonId": 20,
+    "text": "Que signifie « Ti pa, ti pa » ?",
+    "options": ["C'est un effort inutile", "Celui qui frappe oublie", "Petit à petit, doucement mais sûrement", "Les paroles des aînés restent sages"],
+    "correctIndex": 2
+  },
+  {
+    "id": 8,
+    "type": "textuel",
+    "category": "Expression",
+    "lessonId": 16,
+    "text": "Que signifie « Dèyè mòn gen mòn » ?",
+    "options": ["Tel père, tel fils", "L'union fait la force", "On ne peut rien faire le ventre vide", "Après une difficulté, il y en a toujours une autre"],
+    "correctIndex": 3
+  },
+  {
+    "id": 9,
+    "type": "textuel",
+    "category": "Phrase courante",
+    "lessonId": 21,
+    "text": "Comment dit-on « Comment allez-vous ? » en kreyòl ?",
+    "options": ["Koman ou ye ?", "Mwen rele...", "Kijan ou rele ?", "Ki lè li ye ?"],
+    "correctIndex": 0
+  },
+  {
+    "id": 10,
+    "type": "textuel",
+    "category": "Phrase courante",
+    "lessonId": 25,
+    "text": "Comment dit-on « Combien ça coûte ? » en kreyòl ?",
+    "options": ["Kote twalèt la ?", "Konbyen sa koute ?", "Mwen pa konprann", "Mwen regrèt"],
+    "correctIndex": 1
+  },
+  {
+    "id": 11,
+    "type": "textuel",
+    "category": "Phrase courante",
+    "lessonId": 27,
+    "text": "Que signifie « Èske ou ka ede m ? » en français ?",
+    "options": ["Je suis désolé", "À bientôt", "Pouvez-vous m'aider ?", "Quelle heure est-il ?"],
+    "correctIndex": 2
+  },
+  {
+    "id": 12,
+    "type": "textuel",
+    "category": "Phrase courante",
+    "lessonId": 26,
+    "text": "Comment dit-on « Je ne comprends pas » en kreyòl ?",
+    "options": ["Mwen rele...", "N a wè pita", "Kijan ou rele ?", "Mwen pa konprann"],
+    "correctIndex": 3
+  },
+  {
+    "id": 13,
+    "type": "textuel",
+    "category": "Grammaire",
+    "lessonId": 31,
+    "text": "Comment forme-t-on la négation en kreyòl ?",
+    "options": ["En ajoutant « pa » avant le verbe", "En ajoutant « yo » après le nom", "En utilisant « te » avant le verbe", "En utilisant « ap » avant le verbe"],
+    "correctIndex": 0
+  },
+  {
+    "id": 14,
+    "type": "textuel",
+    "category": "Grammaire",
+    "lessonId": 33,
+    "text": "Quel mot marque le futur proche en kreyòl ?",
+    "options": ["te", "ap ou va", "yo", "pa"],
+    "correctIndex": 1
+  },
+  {
+    "id": 15,
+    "type": "textuel",
+    "category": "Grammaire",
+    "lessonId": 35,
+    "text": "Comment forme-t-on le pluriel en kreyòl ?",
+    "options": ["En ajoutant « pa » avant le verbe", "En ajoutant « la » après le nom", "En ajoutant « yo » après le nom", "En ajoutant « te » avant le verbe"],
+    "correctIndex": 2
+  },
+  {
+    "id": 16,
+    "type": "textuel",
+    "category": "Grammaire",
+    "lessonId": 34,
+    "text": "Quel mot marque le passé composé en kreyòl ?",
+    "options": ["ap", "yo", "pa", "te"],
+    "correctIndex": 3
+  }
+]
