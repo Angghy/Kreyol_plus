@@ -129,6 +129,7 @@ class _HomeViewState extends State<HomeView> {
                   leading: const Icon(Icons.logout),
                   title: const Text('Déconnexion'),
                   onTap: () {
+                    context.read<ProgressProvider>().clear();
                     authProvider.logout();
                     Navigator.of(context).pushReplacement(
                       MaterialPageRoute(

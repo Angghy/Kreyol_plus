@@ -161,6 +161,9 @@ class _LessonDetailViewState extends State<LessonDetailView> {
                              // also reload all lessons so lists reflect status
                              if (!mounted) return;
                              await context.read<LessonProvider>().loadAllLessons();
+                             
+                             if (!mounted) return;
+                             Navigator.of(context).pop();
                            },
                            child: const Text(
                              'Compléter',

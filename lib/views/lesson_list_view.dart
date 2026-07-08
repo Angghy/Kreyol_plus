@@ -36,21 +36,6 @@ class _LessonListViewState extends State<LessonListView> {
             return const Text('Leçons');
           },
         ),
-        actions: [
-          Consumer<LessonProvider>(
-            builder: (context, lessonProvider, _) {
-              if (lessonProvider.selectedCategory != null) {
-                return IconButton(
-                  icon: const Icon(Icons.clear),
-                  onPressed: () {
-                    lessonProvider.clearFilter();
-                  },
-                );
-              }
-              return const SizedBox();
-            },
-          ),
-        ],
       ),
       body: Consumer2<LessonProvider, ProgressProvider>(
         builder: (context, lessonProvider, progressProvider, _) {

@@ -34,6 +34,12 @@ class ProgressProvider extends ChangeNotifier {
 
   Future<void> loadUserProgress(String username) async {
     _isLoading = true;
+    // Clear previous user data to avoid "ghost" values or doubling
+    _userProgress = [];
+    _unlockedBadges = [];
+    _totalScore = 0;
+    _completedLessons = 0;
+    _completedQuestions = 0;
     notifyListeners();
 
     try {
@@ -43,7 +49,14 @@ class ProgressProvider extends ChangeNotifier {
       _totalLessons = await _databaseService.getTotalLessonsCount();
       _totalQuestions = await _databaseService.getTotalQuestionsCount();
       _completedQuestions = await _databaseService.getCompletedQuestionsCount(username);
-      _allBadges = await _databaseService.getAllBadges();
+      
+      final rawBadges = await _databaseService.getAllBadges();
+      // Ensure unique badges by ID to prevent UI doubling
+      final Map<int, Badge> uniqueBadgesMap = {};
+      for (var b in rawBadges) {
+        uniqueBadgesMap[b.id] = b;
+      }
+      _allBadges = uniqueBadgesMap.values.toList();
 
       // Load unlocked badges
       _unlockedBadges = [];
@@ -61,6 +74,18 @@ class ProgressProvider extends ChangeNotifier {
       _isLoading = false;
       notifyListeners();
     }
+  }
+
+  void clear() {
+    _userProgress = [];
+    _allBadges = [];
+    _unlockedBadges = [];
+    _totalScore = 0;
+    _completedLessons = 0;
+    _totalLessons = 0;
+    _totalQuestions = 0;
+    _completedQuestions = 0;
+    notifyListeners();
   }
 
   Future<void> completeLesson(String username, int lessonId, int score, {int correctCount = 0}) async {

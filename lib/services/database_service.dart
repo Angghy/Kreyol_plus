@@ -166,7 +166,7 @@ class DatabaseService {
         'audioPath': audioPath,
         'orderNum': lessonData['order'],
         'status': (lessonData['status'] as String?) ?? 'not completed',
-      });
+      }, conflictAlgorithm: ConflictAlgorithm.ignore);
     }
 
     // Load text questions from JSON
@@ -190,7 +190,7 @@ class DatabaseService {
         'audioPath': qAudio,
         'options': jsonEncode(questionData['options']),
         'correctIndex': questionData['correctIndex'],
-      });
+      }, conflictAlgorithm: ConflictAlgorithm.ignore);
     }
 
     // Load oral questions from JSON
@@ -214,7 +214,7 @@ class DatabaseService {
         'audioPath': qAudio,
         'options': jsonEncode(questionData['options']),
         'correctIndex': questionData['correctIndex'],
-      });
+      }, conflictAlgorithm: ConflictAlgorithm.ignore);
     }
 
     // Create default badges
@@ -250,7 +250,7 @@ class DatabaseService {
     ];
 
     for (var badge in badges) {
-      await db.insert('badges', badge.toMap());
+      await db.insert('badges', badge.toMap(), conflictAlgorithm: ConflictAlgorithm.ignore);
     }
   }
 
